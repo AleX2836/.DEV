@@ -10,8 +10,7 @@ public class Main {
         p1.setDono("Jubileu");
         p1.abrirConta("CC");
         p1.depositar(100);
-        p1.status();
-
+        
         
         Banco p2 = new Banco();
 
@@ -20,6 +19,8 @@ public class Main {
         p2.abrirConta("CP");
         p2.depositar(500);    
         p2.sacar(1000);
+
+        p1.status();
         p2.status();
     }
 
