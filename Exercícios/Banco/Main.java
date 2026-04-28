@@ -1,4 +1,4 @@
-package Exercícios;
+package Exercícios.Banco;
 
 public class Main {
     
